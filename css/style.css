@@ -1,0 +1,56 @@
+body {
+    font-family: 'Cinzel', serif;
+    line-height: 1.8rem;
+    background-color: #F9F9F9;
+}
+
+.container-fluid {
+    padding: 0 3%;
+}
+
+
+/* fonts */
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Navbar */
+
+.dropdown-item {
+    color: azure;
+}
+
+.mg-logo {
+    width: 30px;
+    height: 40px;
+}
+
+.nav-item {
+    margin: 0 4px;
+}
+
+
+/* title */
+
+#title {
+    margin: 8% 0 5%;
+}
+
+.title-image {
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+
+@media(max-width:991px) {
+    #title {
+        margin: 0;
+        text-align: center;
+    }
+    .title-image {
+        top: 10%;
+        left: 0;
+    }
+}
